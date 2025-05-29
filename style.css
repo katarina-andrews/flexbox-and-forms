@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container > div {
+  height: 200px;
+  width: 300px;
+  background-color: violet;
+}
+
+p > span {
+  background-color: lightpink;
+  margin: 10px;
+}
+
+p > a {
+  background-color: lightgreen;
+  margin: 15px;
+}
+
+p > a:hover {
+  background-color: lightblue;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 30vw;
+  padding: 1rem;
+}
